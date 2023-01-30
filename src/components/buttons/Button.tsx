@@ -27,21 +27,21 @@ const ButtonContainer = styled(Link)`
     }
 `;
 
-type Link = {
+type LinkProps = {
     children: React.ReactNode;
     variant: ButtonVariants.link;
     to: string;
 }
 
-type Button = {
+type ButtonProps = {
     children: React.ReactNode;
     variant: ButtonVariants.button;
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-type ButtonProps = Link | Button;
+type ButtonComponentProps = LinkProps | ButtonProps;
 
-const Button:React.FC<ButtonProps> = (props) => {
+const Button:React.FC<ButtonComponentProps> = (props) => {
 
     const { children, variant } = props;
 
