@@ -4,11 +4,11 @@ const GlobalStyle = createGlobalStyle`
     :root{
         --color-main: #0e0e10;
         --color-secondary: #18181b;
-        --color-accent: #21D43C;
+        --color-accent: #6688FF;
         --color-text: #efeff1;
 
-        --fs-small:1rem;
-        --fs-medium:1.4rem;
+        --fs-small:.7rem;
+        --fs-medium:1rem;
         --fs-big:clamp(1.5rem, 5vw, 2rem);
         --fs-large:clamp(1.8rem, 6vw, 2.4rem);
         --fs-xlarge:clamp(2.2rem, 7vw, 3rem);
