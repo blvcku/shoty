@@ -6,7 +6,7 @@ import Button, { ButtonVariants } from '../buttons/Button';
 const TopBar:React.FC = () => {
     return(
         <TopBarContainer>
-            <Button variant={ButtonVariants.link} to=''>
+            <Button variant={ButtonVariants.link} to='/upload'>
                 Upload
                 <UploadIcon />
             </Button>
