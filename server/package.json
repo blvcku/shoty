@@ -10,13 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@ffprobe-installer/ffprobe": "^1.4.1",
+=======
+>>>>>>> development
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-fileupload": "^1.4.0",
+<<<<<<< HEAD
     "ffmpeg": "^0.0.4",
     "ffprobe": "^1.1.2",
+=======
+>>>>>>> development
     "fluent-ffmpeg": "^2.1.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1"
