@@ -12,7 +12,7 @@ const ButtonContainer = styled(Link)`
     color:var(--color-text);
     text-decoration:none;
     padding: .5rem 1rem;
-    border-radius:10px;
+    border-radius:5px;
     font-weight:500;
     font-size:var(--fs-medium);
     display:flex;
@@ -27,14 +27,17 @@ const ButtonContainer = styled(Link)`
     }
 `;
 
-type LinkProps = {
+type GeneralProps = {
     children: React.ReactNode;
-    variant: ButtonVariants.link;
-    to: string;
 }
 
-type ButtonProps = {
-    children: React.ReactNode;
+type LinkProps = GeneralProps & {
+    variant: ButtonVariants.link;
+    to: string;
+    state?: object;
+}
+
+type ButtonProps = GeneralProps & {
     variant: ButtonVariants.button;
     onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
 }
