@@ -20,6 +20,7 @@
 .env.production.local
 /tmp
 /thumbnails
+/compressed
 
 npm-debug.log*
 yarn-debug.log*
